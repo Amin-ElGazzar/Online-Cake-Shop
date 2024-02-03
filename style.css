@@ -1,0 +1,272 @@
+body {
+  background-color: black;
+  color: #fff;
+  overflow-x: hidden;
+}
+.con1 {
+  background-image: url(img/bg1.jpg.webp);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.btn_1 {
+  color: #e5bf4a;
+  border: 1px solid #e5bf4a;
+  display: inline-block;
+  padding: 11px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: black;
+  cursor: pointer;
+}
+.btn_1:hover {
+  background-color: #e5bf4a;
+  color: aliceblue;
+}
+
+.cen {
+  display: flex;
+  justify-content: center;
+}
+.cen ul li {
+  font-size: large;
+  font-weight: bold;
+  margin: 0px 15px;
+  position: relative;
+}
+.cen ul li:hover {
+  border-bottom: 1px solid #e5bf4a;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.row3 {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+}
+.row3 h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 41px;
+  color: #fff;
+  line-height: 1.2;
+}
+.row3 button {
+  background: #e5bf4a;
+  border: 1px solid #2a2a2a;
+  color: #0a0a0a !important;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 22px 41px;
+  text-transform: uppercase;
+  line-height: 15px;
+  border-radius: 0px;
+}
+
+.text1 {
+  color: #dfdfdf;
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+  display: block;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 12px;
+  position: relative;
+  margin: 30px auto;
+}
+
+.text1::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  z-index: 1;
+  background: #e5bf4a;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -29px;
+}
+
+.ved {
+  width: 100%;
+  height: 600px;
+}
+
+.con5 {
+  text-align: center;
+  color: white;
+}
+.card {
+  background-color: #0a0a0a;
+  border: 1px solid rgb(164, 158, 143);
+}
+.card-text {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  font-weight: 300;
+}
+.btn-sec6 {
+  background: #e5bf4a;
+  text-transform: uppercase;
+  height: 50px;
+}
+.p-sec6 {
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+}
+.sec6-par h3 {
+  color: #e5bf4a;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.sec6-par p {
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.sec6-par a {
+  color: #e5bf4a !important;
+  font-weight: 300;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.sec6-img {
+  width: 100%;
+}
+.sec7-btn button {
+  width: fit-content;
+  margin: 30px auto;
+  padding: 14px 36px 13px 39px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #0a0a0a;
+  border: 1px solid gold;
+}
+
+.sec7-title {
+  font-family: "Poiret One", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.sec8-btn button {
+  width: fit-content;
+  margin: 30px auto;
+  padding: 7px 18px 8px 20px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #0a0a0a;
+  border: 1px solid gold;
+}
+.up {
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #e5bf4a;
+  border-radius: 50px;
+  font-size: large;
+  display: none;
+  cursor: pointer;
+  color: black;
+}
+
+.up:hover {
+  background-color: #e5bf4a;
+}
+
+.sec-3b {
+  width: inherit;
+  background-color: #e5bf4a;
+  height: 40px;
+}
+
+@media (max-width: 1000px) {
+  .p-sec6 {
+    text-align: center;
+  }
+  .btn-sec6 {
+    width: fit-content;
+    margin: auto;
+  }
+  .logo {
+    display: flex;
+    justify-content: center !important;
+  }
+  .card-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 36px;
+    font-weight: 300;
+  }
+  .sec7-title {
+    font-family: "Poiret One", cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .mar-lov {
+    margin: auto 7px;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sec8-btn {
+    flex-direction: column;
+  }
+  .sec8-btn button {
+    margin-bottom: 0;
+  }
+  .location {
+    margin-left: 10px;
+  }
+}
